@@ -1,0 +1,53 @@
+{
+
+  "header-layout.mobile": {
+    "children": ["age-gate","header-row#1-mobile"]
+  },
+
+  "header-row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "header-spacer#spacer",
+      "binding-selector",
+      "login#home",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+
+  "menu#drawer": {
+    "children": [
+    "search-bar#home",
+
+      "menu-item#other-drinks-mobile-header",
+      "menu-item#beer-mobile-header",
+        "menu-item#brand-zones-mobile-header",
+        "menu-item#deals-mobile-header"
+        //"menu-item#merch-mobile-header"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "drawer-wrapper"
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/51d8d2d9-675e-4af8-a4f2-4078c0caa0fe___014546075148f2f1404a41002ba78895.png",
+      "width": "70",
+      "blockClass": "logo-mobile"
+    }
+  }
+
+}

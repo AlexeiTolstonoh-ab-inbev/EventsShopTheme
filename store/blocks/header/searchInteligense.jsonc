@@ -1,0 +1,14 @@
+{
+  "search-bar#new": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+    "maxWidth": 379,
+      "openAutocompleteOnFocus": true,
+      "autocompleteWidth": 100,
+      "historyFirst": true
+    }
+  },
+  "autocomplete-result-list.v2": {
+      "blocks": ["product-summary"]
+    }
+}

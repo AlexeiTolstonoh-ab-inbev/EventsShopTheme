@@ -1,0 +1,89 @@
+
+
+.label--bottom-link-custom-text6{
+  color: #D90026;
+  width: 130px;
+  background: white;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+}
+.link--bottom-link-custom-text6{
+  text-decoration: none;
+}
+
+
+
+.label--image-link {
+  color: white;
+  min-width: 200px;
+  width: 100%;
+  font-size: 1.3em;
+  top: 220px;
+  position: absolute;
+  left: 10px;
+  background: transparent;
+}
+.label--image-link::after {
+  content: "\2192";
+  position: absolute;
+  right:10px;
+  color: white;
+  top: 0px;
+}
+.label--footer-link{
+  font-size: 16px;
+  text-transform: none;
+  color: white;
+  padding-left: 0;
+  text-decoration: none;
+  margin-left: 0;
+  margin: 0;
+}
+.link--footer-link{
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.label--news-links{
+  display: none;
+}
+.link--news-links-footer{
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+  top:28px;
+}
+@media screen and (min-width: 640px) {
+  :global(.vtex-menu-2-x-styledLinkContainer--footer-link) {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 678px){
+  .label--footer-link{
+    font-size: 16px;
+    text-transform: none;
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+}
+@media screen and (min-width: 1026px){
+  .label--news-links{
+    display: flex;
+    color: white;
+    position: absolute;
+    top:12px;
+    right: 21px;
+    font-size: 12px;
+  }
+  .link--news-links{
+    text-decoration: none;
+  }
+  .link--news-links-footer{
+    display: none;
+  }
+}

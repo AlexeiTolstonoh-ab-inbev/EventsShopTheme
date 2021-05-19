@@ -1,0 +1,17 @@
+{
+  "store.custom#privacy-policy": {
+    "path": "/privacy-policy"
+  },
+  "store.custom#terms-and-conditions": {
+    "path": "/terms-and-conditions"
+  },
+  "store.custom#faq": {
+    "path": "/faq"
+  },
+  "store.custom#aboutus": {
+    "path": "/about-us"
+  },
+  "store.custom#newsLatter": {
+    "path": "/news"
+  }
+}

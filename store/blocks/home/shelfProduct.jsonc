@@ -1,0 +1,89 @@
+{
+ "flex-layout.row#shelfProduct":{
+ "props":{
+ "fullWidth": true
+ },
+ "children": ["list-context.product-list#shelfProduct"]
+
+ },
+  "list-context.product-list#shelfProduct": {
+    "blocks": ["product-summary.shelf#shelfProduct"],
+    "children": ["slider-layout#shelfProduct"],
+    "props": {
+          "orderBy": "OrderByTopSaleDESC"
+        }
+  },
+
+     "slider-layout#shelfProduct": {
+       "props": {
+         "itemsPerPage": {
+           "desktop": 4,
+           "tablet": 2,
+           "phone": 1
+         },
+         "infinite": true,
+         "showNavigationArrows": "always",
+         "showPaginationDots": "newer",
+         "fullWidth": true,
+         "blockClass": "shelfProduct-container"
+       }
+     },
+
+  "product-summary.shelf#shelfProduct": {
+  "props":{
+  "blockClass": "shelfProduct",
+  "Number": 2
+  },
+    "children": [
+       "flex-layout.row#productInShelf"
+    ]
+  },
+  "flex-layout.row#productInShelf":{
+    "children":["flex-layout.col#left","flex-layout.col#right"]
+  },
+  "flex-layout.col#left":{
+    "props":{
+    "preventVerticalStretch": true,
+    "verticalAlign": "bottom"
+    },
+  "children":["product-summary-image#shelfProduct"]
+  },
+  "flex-layout.col#right":{
+  "props":{
+  "preventVerticalStretch": true,
+  "verticalAlign": "bottom"
+  },
+  "children":["product-summary-name#shelfProduct","product-selling-price#shelfProduct","product-summary-quantity#shelfProduct",
+   "add-to-cart-button#shelfProduct"]
+  },
+  "product-summary-image#shelfProduct": {
+      "props": {
+            "showBadge": false,
+            "blockClass": "shelfProduct-image"
+          }
+    },
+
+    "product-summary-name#shelfProduct":{
+"props":{
+"tag": "h2",
+"blockClass": "shelfProduct-name"
+}
+    },
+            "product-selling-price#shelfProduct":{
+                "props": {
+                  "showInstallments": true,
+                  "showSavings": true,
+                   "message": "{sellingPriceWithTax}",
+                   "blockClass": "shelfProduct-price"
+                }
+            },
+     "add-to-cart-button#shelfProduct":{
+        "props": {
+           "isOneClickBuy": false,
+           "buyButtonText": "Buy now",
+           "blockClass": "shelfProduct-button"
+         }
+     },
+     "product-summary-quantity#shelfProduct":{
+     }
+ }

@@ -1,0 +1,133 @@
+{
+"flex-layout.row#bottom-banner-custom":{
+  "props": {
+  "fullWidth": true,
+  "blockClass": "bannerWrapper",
+  "marginTop":5
+  },
+  "children":["rich-text#bottomText"]
+},
+  "rich-text#bottomText":{
+    "props":{
+         "textAlignment": "CENTER",
+         "blockClass": "bottom-banner-custom-text",
+          "textPosition": "CENTER",
+          "text": "WE DELIVER [JUPILER](/jupiler) TO YOUR DOOR \n [START SHOPPING](/jupiler)"
+          }
+          },
+
+
+"flex-layout.row#bottom-banner-custom2":{
+  "props": {
+  "fullWidth": true,
+  "blockClass": "bannerWrapper2",
+  "marginTop":5
+  },
+  "children":["rich-text#bottomText2"]
+},
+  "rich-text#bottomText2":{
+    "props":{
+         "textAlignment": "CENTER",
+         "blockClass": "bottom-banner-custom-text",
+          "textPosition": "CENTER",
+          "text": "WE DELIVER [STELLA ARTOIS](/stella-artois) TO YOUR DOOR  \n [START SHOPPING](/stella-artois)"
+          }
+          },
+     "flex-layout.row#bottom-banner-custom3":{
+       "props": {
+       "fullWidth": true,
+       "blockClass": "bannerWrapper3",
+       "marginTop":5
+       },
+       "children":["rich-text#bottomText3"]
+     },
+       "rich-text#bottomText3":{
+         "props":{
+              "textAlignment": "CENTER",
+              "blockClass": "bottom-banner-custom-text",
+               "textPosition": "CENTER",
+               "text": "WE DELIVER [WINE AND SPIRITS](/bathtub-gin/croix-d-or/la-laia-nuria/smirnoff/william-lawson-s?__bindingAddress=www.jupilershop.be/en&initialMap=b&initialQuery=smirnoff&map=brand,brand,brand,brand,brand) TO YOUR DOOR \n [START SHOPPING](/bathtub-gin/croix-d-or/la-laia-nuria/smirnoff/william-lawson-s?__bindingAddress=www.jupilershop.be/en&initialMap=b&initialQuery=smirnoff&map=brand,brand,brand,brand,brand)"
+               }
+               },
+       "flex-layout.row#bottom-banner-custom4":{
+         "props": {
+         "fullWidth": true,
+         "blockClass": "bannerWrapper4",
+         "marginTop":5
+         },
+         "children":["rich-text#bottomText4"]
+       },
+         "rich-text#bottomText4":{
+           "props":{
+                "textAlignment": "CENTER",
+                "blockClass": "bottom-banner-custom-text",
+                 "textPosition": "CENTER",
+                 "text": "WE DELIVER [SPIRITS](/other-drinks/juices) TO YOUR DOOR [START SHOPPING](/other-drinks/juices)"
+                 }
+                 },
+        "flex-layout.row#bottom-banner-custom5":{
+          "props": {
+          "fullWidth": true,
+          "blockClass": "bannerWrapper5",
+          "marginTop":5
+          },
+          "children":["rich-text#bottomText5"]
+        },
+          "rich-text#bottomText5":{
+            "props":{
+                 "textAlignment": "CENTER",
+                 "blockClass": "bottom-banner-custom-text",
+                  "textPosition": "CENTER",
+                  "text": "WE DELIVER [JUICE](/other-drinks/juices) TO YOUR DOOR [START SHOPPING](/other-drinks/juices)"
+                  }
+                  },
+                  "flex-layout.row#bottom-banner-custom7":{
+                            "props": {
+                            "fullWidth": true,
+                            "blockClass": "bannerWrapper7",
+                            "marginTop":5
+                            },
+                            "children":["rich-text#bottomText7"]
+                          },
+                            "rich-text#bottomText7":{
+                              "props":{
+                                   "textAlignment": "CENTER",
+                                   "blockClass": "bottom-banner-custom-text",
+                                    "textPosition": "CENTER",
+                                    "text": "WE DELIVER [SOFT DRINKS](/other-drinks/soft-drinks) TO YOUR DOOR [START SHOPPING](/other-drinks/soft-drinks)"
+                                    }
+                                    },
+
+         "flex-layout.row#bottom-banner-custom6":{
+            "props": {
+            "fullWidth": true,
+            "blockClass": "bannerWrapper6",
+            "marginTop":5
+            },
+            "children":["rich-text#bottomText6"]
+          },
+
+  "rich-text#bottomText6":{
+    "props":{
+         "textAlignment": "CENTER",
+         "blockClass": "bottom-banner-custom-text",
+          "textPosition": "CENTER",
+          "text": "[FREE](/beer) DELIVERY FOR ALL DRINKS \n [START SHOPPING](/beer)"
+          }
+          },
+
+
+  "slider-layout#text-test": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carouselText"
+    },
+    "children": ["flex-layout.row#bottom-banner-custom6","flex-layout.row#bottom-banner-custom", "flex-layout.row#bottom-banner-custom2", "flex-layout.row#bottom-banner-custom3","flex-layout.row#bottom-banner-custom5","flex-layout.row#bottom-banner-custom7"]
+  }
+}

@@ -1,0 +1,123 @@
+{
+"menu-item#deals": {
+    "props": {
+      "id": "menu-item-deals",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deals",
+        "noFollow": false,
+        "tagTitle": "DEALS",
+        "text": "DEALS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#deals"
+    ]
+  },
+
+  "vtex.menu@2.x:submenu#deals": {
+    "props": {
+      "blockClass": "submenu-top",
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#deals"
+    ]
+  },
+  "vtex.menu@2.x:menu#deals": {
+    "props": {
+      "blockClass": "submenu-top-wrapper-brands",
+      "orientation": "horizontal"
+
+    },
+    "children": [
+"menu-item#promotions",
+"menu-item#Merchandising", "menu-item#exclusivities",
+"menu-item#last-chance","menu-item#beer-subscription"
+    ]
+  },
+    "menu-item#promotions": {
+      "props": {
+        "id": "menu-item-promotions",
+        "blockClass": "top-menu-item-brand",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/promotions",
+          "noFollow": false,
+          "tagTitle": "Promotions",
+          "text": "Promotions"
+        }
+      }
+    },
+
+        "menu-item#Merchandising": {
+          "props": {
+            "id": "menu-item-others",
+            "blockClass": "top-menu-item-brand",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/merchandising",
+              "noFollow": false,
+              "tagTitle": "Merchandising",
+              "text": "Merchandising"
+            }
+          }
+        },
+            "menu-item#exclusivities": {
+              "props": {
+                "id": "menu-item-exclusivities",
+                "blockClass": "top-menu-item-brand",
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/exclusivities",
+                  "noFollow": false,
+                  "tagTitle": "Exclusivities",
+                  "text": "Exclusivities"
+                }
+              }
+            },
+            "menu-item#last-chance": {
+              "props": {
+                "id": "menu-item-last-chance",
+                "blockClass": "top-menu-item-brand",
+                "type": "custom",
+                "iconId": null,
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "/last-chance",
+                  "noFollow": false,
+                  "tagTitle": "Last Chance",
+                  "text": "Last Chance"
+                }
+              }
+            },
+       "menu-item#beer-subscription": {
+                  "props": {
+                    "id": "menu-item-beer-subscription",
+                    "blockClass": "top-menu-item-brand",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                      "type": "internal",
+                      "href": "/beer-subscription",
+                      "noFollow": false,
+                      "tagTitle": "Beer Subscription",
+                      "text": "Beer Subscription"
+                    }
+                  }
+                }
+}

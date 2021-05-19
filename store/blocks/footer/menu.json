@@ -1,0 +1,97 @@
+{
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#footer-politics"
+    ]
+  },
+
+
+
+  "vtex.menu@2.x:menu#footer-politics": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footerMenu"
+    },
+    "children": [
+      "menu-item#website-about-us",
+      "link#contactUsLink",
+      "link#FAQLink",
+      "menu-item#terms-conditions",
+      "menu-item#website-Privacy-policy"
+    ]
+  },
+  "menu-item#website-about-us": {
+    "props": {
+      "id": "website-about-us",
+      "blockClass": "footer-link",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": false,
+        "tagTitle": "About us",
+        "text": "About us"
+      }
+    }
+  },
+
+  "link#contactUsLink": {
+    "props": {
+      "id": "website-contact-us",
+      "type": "custom",
+      "blockClass": "footer-link",
+      "href": "https://contactus.ab-inbev.com/en?redirect_url=https://jupilershop.be/&country=",
+      "target": "_blank",
+      "label": "Contact us"
+    }
+  },
+  "link#FAQLink": {
+    "props": {
+      "id": "website-contact-us",
+      "type": "custom",
+      "blockClass": "footer-link",
+      "href": "/faq",
+      "target": "_blank",
+      "label": "Faq"
+    }
+  },
+  "menu-item#website-Privacy-policy": {
+    "props": {
+      "id": "website-Privacy-policy",
+      "type": "custom",
+      "blockClass": "footer-link",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/privacy-policy/",
+        "noFollow": false,
+        "tagTitle": "Privacy & cookies",
+        "text": "Privacy & cookies"
+      }
+    }
+  },
+  "menu-item#terms-conditions": {
+    "props": {
+      "id": "terms-and-conditions",
+      "type": "custom",
+      "blockClass": "footer-link",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-and-conditions",
+        "noFollow": false,
+        "tagTitle": "Terms & conditions website and sale",
+        "text": "Terms & conditions"
+      }
+    }
+  }
+
+}
+

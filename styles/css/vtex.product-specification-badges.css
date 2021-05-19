@@ -1,0 +1,40 @@
+.badgeText{
+  color: black;
+  font-size: 12px;
+  margin: 0;
+}
+
+:global(.vtex-product-specification-badges-0-x-badgeContainer--bottle-deposit-euro45-excluded){
+  background-color: transparent !important;
+}
+.badgeContainer--price-per-unit{
+  background-color: transparent;
+  padding: 0;
+}
+
+.badgeText--bottle-deposit-euro45-excluded{
+  color: black;
+  background: transparent;
+  text-align: left;
+}
+.groupContainer {
+  margin:0;
+}
+.groupContainer--specificationValueProductCount{
+ position: relative;
+}
+.badgeText--specificationValueProductCount{
+  color: black;
+  background: transparent;
+  text-align: left;
+}
+.badgeContainer--order-per{
+  color: black;
+  background: transparent;
+  text-align: left;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRow--specificationContainerProductCount) :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: 64px !important;
+}

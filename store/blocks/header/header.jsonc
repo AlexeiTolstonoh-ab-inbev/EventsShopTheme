@@ -1,0 +1,94 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+    "age-gate",
+    "header-row#1-desktop",
+    "header-row#2-desktop"
+    ]
+  },
+
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "100%"
+    }
+  },
+  "header-row#1-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+     "logo#desktop",
+             "header-spacer#spacer",
+        //"search-bar#home",
+        "search-bar#new",
+        //"modal-trigger#searchBar",
+      "header-spacer#spacer",
+      "binding-selector",
+      //"locale-switcher#home",
+      "login#home",
+      "link#new",
+      "minicart.v2"
+    ]
+  },
+  "modal-trigger#searchBar":{
+  "children":["search-bar#new","modal-layout#searchBarModal"]
+  },
+
+"modal-layout#searchBarModal":{
+  "children":["search-bar#new"]
+},
+   "link#new": {
+        "props": {
+          "href": "/news",
+          "label": "Newsletter",
+          "blockClass": "news-links"
+        }
+      },
+"header-spacer#spacer":{
+"props":{
+"maxWidth": "100%",
+"autocompleteFullWidth": true
+}
+},
+
+
+"locale-switcher#home":{
+"props":{
+"blockClass": "header-lang-swither"
+}
+},
+"login#home":{
+"props":{
+"showIconProfile": true,
+"iconLabel": "",
+"labelClasses": ["icon-login"],
+"blockClass": "header-login"
+}
+},
+
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/51d8d2d9-675e-4af8-a4f2-4078c0caa0fe___014546075148f2f1404a41002ba78895.png",
+      "width": "174"
+    }
+  },
+  "search-bar#home":{
+  "props":{
+  "maxWidth": 379,
+  "openAutocompleteOnFocus": true
+  }
+  }
+}

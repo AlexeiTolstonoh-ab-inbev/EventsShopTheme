@@ -1,0 +1,598 @@
+
+.flexRow--aboutus-info-container-wrapper{
+  margin-bottom: 20px;
+}
+.flexColChild--specificationProductCount, .flexColChild--shelfSpecificationProductCount{
+  height: 1px;
+}
+.flexRowContent--features-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+.flexRowContent--features-wrapper :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: 50% !important;
+}
+
+
+
+.flexRowContent--paymentsImg-container{
+  display: flex;
+  flex-direction: row;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper){
+  min-height: 450px;
+  background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/87fc8175-f67e-4a42-bc42-60d56537e8bb___a4d1e5085f96b11cd0cb5567a980d4eb.png") no-repeat center 86%, #D90026;
+  background-size: 323px,1520px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper2){
+  min-height: 450px;
+  background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/f8852fe5-5c75-4311-b815-ba0bf6a580fb___7613c3c2ff348ac606b5ce7b7a0100c2.png") no-repeat center bottom, #FFFFFF;
+  width: 100%;
+  background-size: 372px,1520px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper3){
+  min-height: 450px;
+  background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/2d50a0f8-4bee-4066-94d5-083140c3d9aa___1734ba3c99e82b870d24c7ddc53fe436.png") no-repeat center bottom,#D90026;
+  background-size: 305px,1520px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper4){
+  min-height: 450px;
+  background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/6a88d37e-4fb4-46b5-81cb-8557da2ce551___95ae2f89fed65cf77a243092b12fa634.png") no-repeat center bottom, #FFFFFF;
+  background-size: 311px,1520px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper5){
+  min-height: 450px;
+  background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/9bb658c8-3328-4a21-a55e-123ac332a5bd___60781fe….png") no-repeat center 77%,#D90026;  background-size: 376px 236px,1520px;
+  background-size: 341px 187px,1520px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper7){
+  min-height: 450px;
+  background:url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/5dde5dbf-2bb6-4e56-9eb5-bec349e6d672___f288fa912c2529766048df4dd3481556.png")no-repeat 40% bottom,#FFFFFF;
+  background-size: 440px,1520px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+:global(.vtex-flex-layout-0-x-flexRow--bannerWrapper6){
+  min-height: 450px;
+  background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/ce194414-b2a4-4b52-b404-482224b12631___b590fb11256427b496358da941edcaf7.png") 62%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 5px;
+}
+.flexColChild--bottom-banner-col-custom-col6{
+  display: flex;
+  justify-content: center;
+}
+.flexRowContent--bannerWrapper{
+  width: 300px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--topContainer){
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 38px;
+}
+
+.flexCol--col-container{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-color: #D90026;
+}
+.flexCol--paymentCol{
+  margin-top: 20px;
+  align-items: center;
+}
+.flexCol--topContainerRight{
+  padding-top: 0;
+  font-size: 16px;
+}
+.flexRowContent--bottomimgcontainer{
+  display: flex;
+  flex-width: wrap;
+}
+.imageElement--puerbm-image{
+  min-width: 25%;
+}
+.flexCol--puerbm-col-container{
+  background-color: #efefef;
+}
+.flexCol--social-container{
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--buy-button-pseudo){
+  position: relative;
+  height: 20px;
+  margin: 11px;
+}
+/*:global(.vtex-flex-layout-0-x-flexRow--buy-button-pseudo) ::before {*/
+/*  position: absolute;*/
+/*  content: "Buy now";*/
+/*  background-color: rgb(58,3,45);*/
+/*  text-align: center;*/
+/*  vertical-align: middle;*/
+/*  width: 50%;*/
+/*  padding: 8px;*/
+/*  border-radius: 18px;*/
+/*  color: white;*/
+/*  top: -8px;*/
+/*  right: 0*/
+/*}*/
+
+
+
+
+
+:global(.vtex-store__template){
+  max-width: 1520px;
+  margin: 0 auto;
+  min-width: 320px;
+}
+
+.flexRowContent--menu-link,
+.flexRowContent--main-header {
+  padding: 0 0.5rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--deals-container){
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: rgb(251,249,240);
+}
+:global(.vtex-flex-layout-0-x-flexCol--deals--red) {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(251,249,240);
+  align-items: center;
+  padding: 10px;
+}
+.flexRow--deals--red{
+  background-color: rgb(251,249,240);
+  display: flex;
+  justify-content: center;
+}
+.flexRow--puerbm-container{
+  background-color: #EFEFEF;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+:global(.vtex-store-footer-2-x-footerLayout--footer-container){
+  background: #000000;
+}
+/*.flexRow--deals--red .stretchChildrenWidth{*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*  align-self: center;*/
+/*}*/
+.flexRowContent
+.flexRowContent--deals-container{
+  background: rgb(251,249,240);
+  margin-top: 10px;
+}
+.flexRowContent--deals-container{
+  background: rgb(251,249,240);
+}
+:global(.vtex-flex-layout-0-x-flexRowContent){
+  background: transparent !important;
+}
+@media screen and (min-width: 500px) {
+  :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper){
+    min-height: 450px;
+    background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/87fc8175-f67e-4a42-bc42-60d56537e8bb___a4d1e5085f96b11cd0cb5567a980d4eb.png") no-repeat center 100%, #D90026;
+    background-size: 430px,1520px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper6) {
+    background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/ce194414-b2a4-4b52-b404-482224b12631___b590fb11256427b496358da941edcaf7.png") no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper7){
+    min-height: 450px;
+    background:url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/5dde5dbf-2bb6-4e56-9eb5-bec349e6d672___f288fa912c2529766048df4dd3481556.png")no-repeat 40% 150%,#FFFFFF;
+    background-size: 621px,1520px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 610px){
+  :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper6){
+    background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/ce194414-b2a4-4b52-b404-482224b12631___b590fb11256427b496358da941edcaf7.png") no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .flexRowContent--features-wrapper :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: 25% !important;
+  }
+  .flexCol--features-column{
+    width: auto;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper) {
+background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/2862f70b-5cc4-4592-91b8-796d095c0459___329ef0375c65c01e43518484c9bb4360.png") no-repeat 100% 149%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/f977b4aa-0dd3-4389-b6c1-fef8b8a4882a___eb962953eb0015f7392369daec59f1df.png")no-repeat 97% 7%,linear-gradient(90deg,#D90026 60%,#ffffff 40%) no-repeat;
+    background-size: 286px,272px,100%;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper2){
+    background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/f8852fe5-5c75-4311-b815-ba0bf6a580fb___7613c3c2ff348ac606b5ce7b7a0100c2.png") no-repeat 100% center,linear-gradient(90deg,#FFFFFF 60%,#D90026 40%) no-repeat;
+    width: 100%;
+    min-height: 400px;
+    background-size: 319px,100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper3){
+    background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/2d50a0f8-4bee-4066-94d5-083140c3d9aa___1734ba3c99e82b870d24c7ddc53fe436.png") no-repeat 96% center,linear-gradient(90deg,#D90026 60%,#FFFFFF 40%) no-repeat;
+    background-size: 300px, 100%;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper4){
+    background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/6a88d37e-4fb4-46b5-81cb-8557da2ce551___95ae2f89fed65cf77a243092b12fa634.png") no-repeat 100% center,linear-gradient(90deg,#FFFFFF 60%,#D90026 40%) no-repeat;
+    background-size: 347px, 100%;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper5){
+background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/395e1ffa-d8da-4637-991f-8c2928548208___a3bfc96729e3d2f12f9c1c5202471ed2.png") no-repeat 100% 105%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/814947dd-1a8c-4002-85cb-0c4d53f64983___022976990d73fb2b19c31d7849ee3625.png") no-repeat 85% center,linear-gradient(90deg,#D90026 60%,#FFFFFF 40%) no-repeat;
+    background-size: 242px, 242px, 100%;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper7){
+    /*background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/30776d71-2bb9-4894-baf2-5fd13df74efa___844911a18a877a3666e83cc53c44a23d.png") no-repeat 90% center,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/09d6021f-17bc-4675-a47c-e0761ee78fae___43d36c0af405919aa8d88b25cc8cb129.png") no-repeat 85% center,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/ff1d3451-43de-400f-815c-1ca0856cd941___67a755d26446f036633b17dc2dff8c67.png")no-repeat 85% center,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/84c79446-dcfa-4ade-b9b9-2d3087602929___dfede4ad1fd03942222c4f2356176fce.png")no-repeat 80% center,linear-gradient(90deg,#FFFFFF 54%,#D90026 46%) no-repeat;*/
+    background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/ff1d3451-43de-400f-815c-1ca0856cd941___67a755d26446f036633b17dc2dff8c67.png")no-repeat 76% 78%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/84c79446-dcfa-4ade-b9b9-2d3087602929___dfede4ad1fd03942222c4f2356176fce.png") no-repeat 97% 77%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/9521ff86-24ec-4a74-8295-1597054a70f2___a8d593fe0707c037081ae4c1c5aba0eb.png")no-repeat 72% 27%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/09d6021f-17bc-4675-a47c-e0761ee78fae___43d36c0af405919aa8d88b25cc8cb129.png") no-repeat 95% 25%,linear-gradient(90deg,#FFFFFF 54%,#D90026 46%) no-repeat;
+    background-size: 180px,180px,130px,180px, 100%;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper6){
+    background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/ce194414-b2a4-4b52-b404-482224b12631___b590fb11256427b496358da941edcaf7.png") no-repeat right, #D90026 no-repeat left;
+    background-size: 400px 442px, 100%, contain;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .flexRowContent--bannerWrapper6{
+    width: 53%;
+  }
+  .flexRowContent--bannerWrapper{
+    width: 53%;
+  }
+  .flexRowContent--bannerWrapper2{
+    width: 53%;
+  }
+  .flexRowContent--bannerWrapper3{
+    width: 53%;
+  }
+  .flexRowContent--bannerWrapper4{
+    width: 53%;
+  }
+  .flexRowContent--bannerWrapper5{
+    width: 53%;
+  }
+  .flexRowContent--bannerWrapper7{
+    width: 53%;
+  }
+  .flexCol--bottom-banner-col-custom-col6{
+    justify-content: flex-start;
+    width: 53%!important;
+  }
+  .flexColChild--bottom-banner-col-custom-col6{
+    display: flex;
+    justify-content: center;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper6) :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    justify-content: flex-start;
+  }
+}
+
+  @media screen and (min-width: 40em) {
+    .flexRowContent--menu-link,
+    .flexRowContent--main-header {
+      padding: 0;
+    }
+
+    .flexCol--paymentCol {
+      margin-top: 20px;
+      align-items: flex-end;
+    }
+  }
+  @media screen and (min-width: 1026px) {
+
+    :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper6){
+      background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/ce194414-b2a4-4b52-b404-482224b12631___b590fb11256427b496358da941edcaf7.png") no-repeat right, #D90026 no-repeat left;
+      background-size: 520px 442px, 100%, contain;
+      width: 100%;
+      min-height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    :global(.vtex-search-result-3-x-orderByDropdown) {
+      align-items: flex-end;
+      justify-content: flex-end;
+      display: flex;
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper) {
+      background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/2862f70b-5cc4-4592-91b8-796d095c0459___329ef0375c65c01e43518484c9bb4360.png") no-repeat 100% 149%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/f977b4aa-0dd3-4389-b6c1-fef8b8a4882a___eb962953eb0015f7392369daec59f1df.png")no-repeat 84% -5%,linear-gradient(90deg,#D90026 60%,#ffffff 40%) no-repeat;
+      background-size: 300px,300px,100%;
+      width: 100%;
+      min-height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper2){
+      background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/f8852fe5-5c75-4311-b815-ba0bf6a580fb___7613c3c2ff348ac606b5ce7b7a0100c2.png") no-repeat 96% center,linear-gradient(90deg,#FFFFFF 60%,#D90026 40%) no-repeat;
+      width: 100%;
+      min-height: 400px;
+      background-size: 392px,100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper3){
+      background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/2d50a0f8-4bee-4066-94d5-083140c3d9aa___1734ba3c99e82b870d24c7ddc53fe436.png") no-repeat 94% center,linear-gradient(90deg,#D90026 60%,#FFFFFF 40%) no-repeat;
+      background-size: 396px,100%;
+      width: 100%;
+      min-height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper4){
+      background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/6a88d37e-4fb4-46b5-81cb-8557da2ce551___95ae2f89fed65cf77a243092b12fa634.png") no-repeat 100% center,linear-gradient(90deg,#FFFFFF 60%,#D90026 40%) no-repeat;
+      background-size: 347px, 100%;
+      width: 100%;
+      min-height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper5){
+      background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/395e1ffa-d8da-4637-991f-8c2928548208___a3bfc96729e3d2f12f9c1c5202471ed2.png") no-repeat 96% 92%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/814947dd-1a8c-4002-85cb-0c4d53f64983___022976990d73fb2b19c31d7849ee3625.png") no-repeat 78% center,linear-gradient(90deg,#D90026 60%,#FFFFFF 40%) no-repeat;
+      background-size: 242px, 242px, 100%;
+      width: 100%;
+      min-height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper7){
+      /*background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/30776d71-2bb9-4894-baf2-5fd13df74efa___844911a18a877a3666e83cc53c44a23d.png") no-repeat 90% center,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/09d6021f-17bc-4675-a47c-e0761ee78fae___43d36c0af405919aa8d88b25cc8cb129.png") no-repeat 85% center,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/ff1d3451-43de-400f-815c-1ca0856cd941___67a755d26446f036633b17dc2dff8c67.png")no-repeat 85% center,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/84c79446-dcfa-4ade-b9b9-2d3087602929___dfede4ad1fd03942222c4f2356176fce.png")no-repeat 80% center,linear-gradient(90deg,#FFFFFF 54%,#D90026 46%) no-repeat;*/
+      background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/ff1d3451-43de-400f-815c-1ca0856cd941___67a755d26446f036633b17dc2dff8c67.png")no-repeat 76% 65%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/84c79446-dcfa-4ade-b9b9-2d3087602929___dfede4ad1fd03942222c4f2356176fce.png") no-repeat 94% 65%,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/9521ff86-24ec-4a74-8295-1597054a70f2___a8d593fe0707c037081ae4c1c5aba0eb.png")no-repeat 65% center,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/09d6021f-17bc-4675-a47c-e0761ee78fae___43d36c0af405919aa8d88b25cc8cb129.png") no-repeat 86% center,linear-gradient(90deg,#FFFFFF 54%,#D90026 46%) no-repeat;
+      background-size: 180px,180px,130px,180px, 100%;
+      width: 100%;
+      min-height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper6){
+      background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/ce194414-b2a4-4b52-b404-482224b12631___b590fb11256427b496358da941edcaf7.png") no-repeat right, #D90026 no-repeat left;
+      background-size: 471px 442px, 100%, contain;
+      width: 100%;
+      min-height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    .flexRowContent--bannerWrapper6{
+      width: 53%;
+    }
+    .flexRowContent--bannerWrapper{
+      width: 53%;
+    }
+    .flexRowContent--bannerWrapper2{
+      width: 53%;
+    }
+    .flexRowContent--bannerWrapper3{
+      width: 53%;
+    }
+    .flexRowContent--bannerWrapper4{
+      width: 53%;
+    }
+    .flexRowContent--bannerWrapper5{
+      width: 53%;
+    }
+    .flexRowContent--bannerWrapper7{
+      width: 53%;
+    }
+    .flexCol--bottom-banner-col-custom-col6{
+      justify-content: flex-start;
+      width: 53%!important;
+    }
+    .flexColChild--bottom-banner-col-custom-col6{
+      display: flex;
+      justify-content: center;
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper6) :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+      justify-content: flex-start;
+    }
+  }
+  @media screen and (min-width: 80rem) {
+    .flexRowContent--menu-link,
+    .flexRowContent--main-header {
+      padding: 0 0.25rem;
+    }
+
+    .flexRowContent--main-header {
+      width: 100%;
+      max-width: 1520px;
+      margin: 0 auto;
+    }
+
+    .flexRowContent--menu-link {
+      background-color: #03044e;
+      color: #fff;
+    }
+
+    .flexRowContent--main-header {
+      background-color: #f0f0f0;
+    }
+
+    .flexRowContent--main-header-mobile {
+      align-items: center;
+      padding: 0.625rem 0.5rem;
+      background-color: #f0f0f0;
+    }
+
+    .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+      color: #ffffff;
+      font-size: 14px;
+    }
+
+    .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+      color: #727273;
+      font-size: 14px;
+    }
+
+    .flexRow--deals {
+      background-color: #b12025;
+      padding: 14px 0px;
+    }
+
+    .flexRow--deals .stretchChildrenWidth {
+      align-items: center;
+    }
+
+    .flexRow--deals .flexCol {
+      align-items: center;
+    }
+
+    .col--deals4 {
+      background: #b12025;
+    }
+
+    .flexCol--filterCol {
+      max-width: 500px;
+      min-width: 230px;
+    }
+
+    .flexCol--productCountCol {
+      align-items: flex-start;
+    }
+
+    .flexCol--orderByCol {
+      align-items: flex-end;
+    }
+
+    .flexCol--orderByMobileCol {
+      width: 42%;
+    }
+
+    .flexCol--filterMobileCol {
+      width: 38%;
+    }
+
+    .flexCol--switcherMobileCol {
+      width: 20%;
+    }
+
+    .flexRow--quickviewMainRow {
+      display: flex;
+      max-height: 100%;
+    }
+
+    .flexColChild--quickviewDetails:first-child {
+      overflow-y: auto;
+      height: 66% !important;
+      overflow-x: hidden;
+    }
+
+    .flexColChild--quickviewDetails:last-child {
+      height: 34% !important;
+    }
+
+    .flexRow--addToCartRow {
+      padding-bottom: 1rem;
+    }
+
+    .flexRow--collage-collumText {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+    }
+
+    .flexRowContent--collage-container {
+      flex-direction: column;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+
+    .flexColChild--collage-colWrapper {
+      background: #b12025;
+      text-align: center;
+      width: 50%;
+    }
+
+    .flexColChild--collage-collumText {
+      padding: 0 57px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent) :global(.vtex-flex-layout-0-x-flexRowContent--deals-container) {
+      background: #252424;
+    }
+  }

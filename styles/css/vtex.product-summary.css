@@ -1,0 +1,118 @@
+
+:global(.vtex-product-summary-2-x-imageContainer) {
+    background: white;
+    position: relative;
+    width: 100%;
+}
+
+.element--product-home-wrapper{
+  padding-bottom: 23px;
+margin: 0 auto;
+}
+.nameContainer{
+  padding-bottom: 0 !important;
+  padding-top: 0;
+  background-color: transparent;
+}
+
+.imageContainer{
+  background: white;
+}
+.element{
+  display: flex;
+  justify-content: space-between;
+}
+.skuSelectorContainer--quickview .skuSelectorItemImage .frameAround, .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
+  border-radius: 50%;
+}
+.SKUSelectorContainer{
+  min-height: 100px;
+  margin: 0;
+}
+:global(.vtex-store-components-3-x-skuSelectorSubcontainer), :global(.vtex-product-summary-2-x-skuSelectorContainer){
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+
+.container :global(.vtex-modal-layout-0-x-triggerContainer) {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
+
+.container:hover :global(.vtex-modal-layout-0-x-triggerContainer) {
+  opacity: 1;
+}
+
+@media screen and (max-width: 40em) {
+  .container :global(.vtex-modal-layout-0-x-triggerContainer) {
+    display: none;
+  }
+}
+
+.nameContainer {
+  justify-content: start;
+  padding-top: 0;
+  padding-bottom: 1rem;
+}
+
+.brandName {
+  font-weight: 600;
+  font-size: 18px;
+  color: #2E2E2E;
+}
+
+.container {
+  text-align: start;
+}
+
+.imageContainer {
+  text-align: center;
+}
+
+.image {
+  border-radius: 0.25rem;
+}
+.element--shelfProduct-summary{
+  max-width: 600px;
+}
+:global(.vtex-product-summary-2-x-imageNormal) :global(.vtex-product-summary-2-x-image) :global(.vtex-product-summary-2-x-image--shelfProduct-image){
+  width: 400px;
+}
+.buyButton--shelfProduct-button{
+  width: 100px;
+  height: 50px;
+  font-size: 14px;
+  padding: 0;
+}
+.buyButton--shelfProduct-button :global(.vtex-button__label){
+  padding: 0;
+  text-transform: lowercase;
+}
+:global(.vtex-product-summary-2-x-containerNormal--shelfProduct){
+  max-width: 600px;
+  min-width: 100%;
+}
+.imageWrapper--shelfProduct-image {
+  background: white;
+  max-width: 200px;
+}
+.image--shelfProduct-image{
+  background: white;
+  width: auto;
+  height: auto;
+}
+.containerNormal--search-page-containe{
+  background: #ff4122;
+}
+.buyButton
+.buyButton--searchBuyButton{
+  background: #ff4122;
+}
+.nameContainer--serchName{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.brandName--serchName{
+  color: black;
+}

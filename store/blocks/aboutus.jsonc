@@ -1,0 +1,170 @@
+{
+"flex-layout.row#aboutus":{
+       "props": {
+        "fullWidth":true,
+        "horizontalAlign": "center",
+        "blockClass": "aboutus-info-container-wrapper"
+        },
+    "children":["flex-layout.col#aboutus-clo1", "flex-layout.col#aboutus-clo3", "flex-layout.col#aboutus-clo4", "flex-layout.col#aboutus-clo2"]
+    },
+
+  "flex-layout.col#aboutus-clo1":{
+  "props":{
+  "border": ["top", "right", "bottom", "left"],
+  "borderWidth": 2,
+  "paddingLeft": 5,
+  "paddingRight": 5,
+  "marginLeft": 5,
+  "marginRight": 5,
+  "verticalAlign": "top",
+  "horizontalAlign": "center",
+  "blockClass": "col-container"
+  },
+  "children": ["rich-text#info-header-first", "image#about-img1", "rich-text#info-text-first"]
+  },
+
+    "rich-text#info-header-first": {
+      "props": {
+        "text": "WHAT IS THE JUPILER SHOP ?",
+        "blockClass": "aboutus-headerInfoText"
+      }
+    },
+"image#about-img1": {
+"props": {
+"title":"First image",
+"min-height": "200",
+"min-width": "200",
+"maxHeight": "200",
+"maxWidth": "100%",
+"blockClass": "about-image",
+ "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/8c349daf-1ae1-4593-b7ab-3d0a25e4c73e___2df78f1e631556ffd1902d93a903b49a.png"
+    }
+ },
+    "rich-text#info-text-first": {
+      "props": {
+        "text": "The Jupiler Shop is about jupiler, the brand everyone loves of course... but not only ! this shop will offer you much more than only beer...",
+        "blockClass": "aboutus-infoText"
+      }
+    },
+
+
+    "flex-layout.col#aboutus-clo2":{
+        "props":{
+          "border": ["top", "right", "bottom", "left"],
+          "borderWidth": 2,
+        "paddingLeft": 5,
+        "paddingRight": 5,
+        "marginLeft": 5,
+        "marginRight": 5,
+        "verticalAlign": "top",
+        "horizontalAlign": "center",
+        "blockClass": "col-container"
+        },
+         "children": ["rich-text#info-header-second", "image#about-img2", "rich-text#info-text-second"]
+    },
+        "rich-text#info-header-second": {
+          "props": {
+            "text": "WHAT DOES IT DO FOR YOU ?",
+            "blockClass": "aboutus-headerInfoText"
+          }
+        },
+        "image#about-img2": {
+        "props": {
+        "title":"First image",
+        "min-height": "200",
+        "min-width": "200",
+        "maxHeight": "200",
+        "maxWidth": "100%",
+        "blockClass": "about-image",
+        "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/e604fdba-7825-454c-8c10-2fe84a09612e___8edaf9768d1cfc7b08d3edec1d792d9e.svg"
+            }
+         },
+        "rich-text#info-text-second": {
+          "props": {
+            "text": "The Jupiler Shop delivers drinks ! \n Never have to worry about that heavy lifting again when going to the supermarket : we will deliver your drinks where you want in 3 to 5 working days",
+            "blockClass": "aboutus-infoText"
+          }
+        },
+
+
+
+    "flex-layout.col#aboutus-clo3":{
+        "props":{
+          "border": ["top", "right", "bottom", "left"],
+          "borderWidth": 2,
+        "paddingLeft": 5,
+        "paddingRight": 5,
+        "marginLeft": 5,
+        "marginRight": 5,
+        "verticalAlign": "top",
+        "horizontalAlign": "center",
+        "blockClass": "col-container"
+        },
+         "children": ["rich-text#info-header-third", "image#about-img3", "rich-text#info-text-third"]
+    },
+            "rich-text#info-header-third": {
+              "props": {
+                "text": "WHY DO WE LIKE IT ?",
+                "blockClass": "aboutus-headerInfoText"
+              }
+            },
+            "image#about-img3": {
+            "props": {
+            "title":"First image",
+            "min-height": "200",
+            "min-width": "200",
+            "maxHeight": "200",
+            "maxWidth": "100%",
+            "blockClass": "about-image",
+            "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/38ca6db4-960c-499c-beb4-90ac455a3553___cd2cd4c4efa6672550df1371d7382007.svg"
+                }
+             },
+            "rich-text#info-text-third": {
+              "props": {
+                "text": "We like the shop because it makes our life easy ! \n From now on let’s only focus on what matters : have a drink with friends, enjoy a nice cocktail or a beer : we will provide \n What you need !",
+                "blockClass": "aboutus-infoText"
+              }
+            },
+
+
+
+    "flex-layout.col#aboutus-clo4":{
+        "props":{
+          "border": ["top", "right", "bottom", "left"],
+          "borderWidth": 2,
+        "paddingLeft": 5,
+        "paddingRight": 5,
+        "marginLeft": 5,
+        "marginRight": 5,
+        "verticalAlign": "top",
+        "horizontalAlign": "center",
+        "blockClass": "col-container"
+        },
+         "children": ["rich-text#info-header-fourth", "image#about-img4", "rich-text#info-text-fourth"]
+    },
+
+            "rich-text#info-header-fourth": {
+              "props": {
+                "text": "WHAT IS MORE ?",
+                "blockClass": "aboutus-headerInfoText"
+              }
+            },
+            "image#about-img4": {
+            "props": {
+            "title":"First image",
+            "min-height": "200",
+            "min-width": "150",
+            "maxHeight": "200",
+            "maxWidth": "100%",
+            "blockClass": "about-image",
+            "src": "https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/805b033c-709b-417f-810c-c7ba7d9f8f65___99e5047c7b296cb88e37279f49c47c24.svg"
+                }
+             },
+            "rich-text#info-text-fourth": {
+              "props": {
+                "text": "We deliver drinks, now you get that.\n Well, there’s even more ! \n We will also help you find merchandising, glasses and even experience related to your favorite beer brands ! ",
+                "blockClass": "aboutus-infoText"
+              }
+            }
+
+}

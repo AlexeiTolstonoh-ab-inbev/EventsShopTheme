@@ -1,0 +1,150 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "props": {
+      "blockClass": "footer-container"
+    },
+    "children": [
+      "flex-layout.row#footer-1-desktop"
+    ]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-politics",
+      "flex-layout.col#info",
+      "flex-layout.col#payment-methods"
+    ],
+    "props": {
+      "blockClass": "footer-menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 6,
+      "horizontalAlign": "center"
+    }
+  },
+
+  "flex-layout.col#info": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "top",
+      "blockClass": "social-container",
+      "paddingBottom": 10
+    },
+    "children": ["rich-text#information","social-networks","link#newFooter"]
+  },
+  "link#newFooter": {
+    "props": {
+      "href": "/news",
+      "label": "Newsletter",
+      "blockClass": "news-links-footer"
+    }
+  },
+  "rich-text#information": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Follow us:",
+      "blockClass": "footerSocialHeader",
+      "font": "t-heading-2"
+    }
+  },
+  "social-networks": {
+    "props": {
+      "blockClass": "social-items",
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/jupiler"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/jupiler_belgium"
+        }
+      ]
+    }
+  },
+
+  "flex-layout.col#payment-methods": {
+    "props": {
+      "blockClass": "paymentCol",
+      "verticalAlign": "bottom"
+    },
+    "children":["flex-layout.row#patmentMethods","rich-text#footerAbi"]
+  },
+"flex-layout.row#patmentMethods": {
+  "props": {
+    "preventVerticalStretch": true,
+    "blockClass": "paymentsImg-container"
+  },
+  "children": ["image#MasterCard","image#Visa","image#bankContackt"]
+},
+  "rich-text#footerAbi": {
+    "props": {
+      "text": "© 2021 Anheuser-Busch InBev ",
+      "blockClass": "footerAbi"
+    }
+  },
+  "image#MasterCard": {
+    "props": {
+      "min-height": "58",
+      "min-width": "58",
+      "blockClass": "payment-method-img",
+      "link":{
+        "url": "https://www.mastercard.us/en-us.html"
+      },
+      "title": "MC",
+      "maxWidth": "100%",
+      "src": "https://abibewebshop.vtexassets.com/_v/public/assets/v1/published/vtex.store-footer@2.22.0/public/react/a8a977f569877c2df3a46c5a7b0d4dec.svg"
+    }
+  },
+  "image#Visa": {
+    "props": {
+      "min-height": "58",
+      "min-width": "58",
+      "blockClass": "payment-method-img",
+      "link":{
+        "url": "https://usa.visa.com/"
+      },
+      "title": "Visa",
+      "maxWidth": "100%",
+      "src": "https://abibewebshop.vtexassets.com/_v/public/assets/v1/published/vtex.store-footer@2.22.0/public/react/69f24958103909c9e64057b9956d886f.svg"
+    }
+  },
+  "image#bankContackt": {
+    "props": {
+      "min-height": "58",
+      "min-width": "58",
+      "blockClass": "payment-method-img",
+      "link":{
+        "url": "https://www.bancontact.com/en"
+      },
+      "maxWidth": "100%",
+      "title": "Bancontact",
+      "src": "https://abibewebshop.vtexassets.com/_v/public/assets/v1/published/vtex.store-footer@2.22.0/public/react/d48ef71514c2996f778851c1df9cc5d0.svg"
+    }
+  },
+
+
+
+  "footer-layout.mobile": {
+    "props": {
+      "blockClass": "footer-container"
+    },
+    "children": [
+      "flex-layout.row#footer-1-mobile"
+    ]
+  },
+  "flex-layout.row#footer-1-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#footer-politics",
+      "flex-layout.col#info",
+      "flex-layout.col#payment-methods"
+    ],
+    "props": {
+      "blockClass": "footer-menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 6
+    }
+  }
+}
