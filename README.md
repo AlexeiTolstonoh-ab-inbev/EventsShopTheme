@@ -1,0 +1,2 @@
+# EventsShopTheme
+EventsShopTheme
