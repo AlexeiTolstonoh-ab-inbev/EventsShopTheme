@@ -26,12 +26,13 @@
 
   "menu#drawer": {
     "children": [
-    "search-bar#home",
-
-      "menu-item#other-drinks-mobile-header",
-      "menu-item#beer-mobile-header",
-        "menu-item#brand-zones-mobile-header",
-        "menu-item#deals-mobile-header"
+    //"search-bar#home",
+"menu-item#events-at-home",
+"menu-item#extra-drinks"
+      //"menu-item#other-drinks-mobile-header",
+      //"menu-item#beer-mobile-header",
+        //"menu-item#brand-zones-mobile-header",
+        //"menu-item#deals-mobile-header"
         //"menu-item#merch-mobile-header"
     ],
     "props": {

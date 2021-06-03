@@ -3,9 +3,50 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
-      "shelf.relatedProducts"
+      //"list-context.product-list#demo1",
+      "shelf.relatedProducts#new"
     ]
   },
+
+  "shelf.relatedProducts#new": {
+  "blocks":["product-summary.shelf#attachments"],
+      "props": {
+          "recommendation": "similars",
+          "blockClass": "attachment-shelf",
+          "productList": {
+              "titleText": "OPTIONAL SERVICES"
+          }
+      }
+  },
+
+  "product-summary.shelf#attachments":{
+    "props":{
+    "blockClass":"attachment-container"},
+  "children": [
+         "flex-layout.row#attachments"
+        ]
+},
+  "flex-layout.row#attachments":{
+  "children":["flex-layout.col#attachments"]
+  },
+  "flex-layout.col#attachments":{
+  "props":{
+  "horizontalAlign": "center",
+  "marginLeft": 3,
+  "marginRight": 3
+  },
+  "children":["product-summary-image#attachment-image","product-summary-name#attachment-name"]
+  },
+"product-summary-image#attachment-image":{
+"props":{
+"blockClass":"attachment-image-shelf"
+}
+},
+"product-summary-name#attachment-name":{
+"props":{
+"blockClass":"attachment-name-shelf"
+}
+},
   "flex-layout.row#product-breadcrumb": {
     "props": {
       "marginTop": 4
@@ -50,17 +91,31 @@
     //"product-specification-group#product",
       "product-separator",
       "product-quantity",
+
+
    //   "product-identifier.product",
-      //"sku-selector",
+      "sku-selector",
 
       "product-description",
-
+"product-assembly-options",
       "flex-layout.row#buy-button"
      // "availability-subscriber",
       //"shipping-simulator",
       //"share#default"
     ]
   },
+  "flex-layout.row#options":{
+  "children":["assembly-option-item-image","assembly-option-item-price","assembly-option-item-quantity-selector"]
+  },
+ "product-assembly-options": {
+ "children":["assembly-option-item-name","flex-layout.row#options","assembly-option-item-children-description"],
+ "props":{
+   "initiallyOpened": "always"
+  }
+
+},
+
+
  "add-to-list-btn#productpageWish":{
   "props":{
   "blockClass": "productpageWish"
@@ -100,7 +155,8 @@
 
   "sku-selector":{
   "props":{
-  "showValueForVariation":"all"
+  "showValueForVariation":"all",
+  "visibility":"more-than-one"
   }
   },
   "flex-layout.row#buy-button": {

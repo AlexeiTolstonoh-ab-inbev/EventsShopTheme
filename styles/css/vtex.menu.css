@@ -5,6 +5,12 @@
   align-items: center;
   font-size: 22px;
 }
+:global(.vtex-menu-2-x-menuContainerNav--drawer-wrapper){
+  padding-top: 10px;
+}
+.styledLinkContainer{
+  padding: 5px 0!important;
+}
 .styledLinkContent{
   font-size: 16px;
   text-transform: capitalize;

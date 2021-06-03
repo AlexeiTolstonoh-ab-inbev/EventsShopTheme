@@ -3,13 +3,21 @@
     "blocks": [
     //  "list-context.image-list#demo",
       "slider-layout#text-test",
+      "rich-text#toptext-features",
       "flex-layout.row#features-wrapper",
       //"list-context.image-list#bottom-banner",
-"flex-layout.row#producthome",
-"flex-layout.row#puerbm-container"
+"flex-layout.row#producthome"
+//"flex-layout.row#puerbm-container"
     ]
   },
-
+  "rich-text#toptext-features":{
+      "props":{
+      "blockClass": "puerbm-title",
+           "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "How it works?"
+            }
+            },
 
 //slider
   "list-context.image-list#demo": {

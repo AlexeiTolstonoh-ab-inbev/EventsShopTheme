@@ -1,2 +1,1 @@
-# EventsShopTheme
-EventsShopTheme
+# jupiler

@@ -31,7 +31,7 @@
      "logo#desktop",
              "header-spacer#spacer",
         //"search-bar#home",
-        "search-bar#new",
+        //"search-bar#new",
         //"modal-trigger#searchBar",
       "header-spacer#spacer",
       "binding-selector",
