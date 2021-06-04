@@ -1,4 +1,10 @@
-
+:global(.vtex-store-link-0-x-link--futures-button){
+  text-align: center;
+  padding: 10px;
+  background: #D60025;
+  color: white;
+  text-decoration: none;
+}
 
 .label--bottom-link-custom-text6{
   color: #D90026;

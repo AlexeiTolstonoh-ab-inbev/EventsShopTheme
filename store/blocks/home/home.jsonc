@@ -5,6 +5,7 @@
       "slider-layout#text-test",
       "rich-text#toptext-features",
       "flex-layout.row#features-wrapper",
+       "flex-layout.row#features-button-wrapprer",
       //"list-context.image-list#bottom-banner",
 "flex-layout.row#producthome"
 //"flex-layout.row#puerbm-container"

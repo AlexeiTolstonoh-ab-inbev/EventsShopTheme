@@ -39,7 +39,20 @@
       "disclosure-layout#question3.1",
 
       "disclosure-layout#question3.2",
-      "disclosure-layout#question3.3"
+      "disclosure-layout#question3.3",
+
+      "rich-text#category-header4",
+          "disclosure-layout#question4.1",
+           "disclosure-layout#question4.2",
+           "disclosure-layout#question4.3",
+
+            "disclosure-layout#question4.4",
+            "disclosure-layout#question4.5",
+            "disclosure-layout#question4.6",
+            "disclosure-layout#question4.7",
+            "disclosure-layout#question4.8",
+            "disclosure-layout#question4.9",
+            "disclosure-layout#question4.10"
     ]
   },
 "rich-text#category-header1":{
@@ -397,5 +410,227 @@
                               "props": {
                                 "text": "Danny is a generous guy, delivery is free for all the drinks you order."
                               }
-                            }
+                            },
+
+
+
+
+
+"rich-text#category-header4":{
+      "props": {
+        "text": "Events",
+        "blockClass": "faq-category-header",
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "font": "t-heading-3"
+      }
+},
+
+"disclosure-layout#question4.1": {
+"props":{
+"blockClass": "question-wrapper"
+},
+    "children": ["disclosure-trigger#simple4.1", "disclosure-content#simple4.1"]
+  },
+  "disclosure-trigger#simple4.1": {
+    "children": ["rich-text#question4.1"]
+  },
+  "disclosure-content#simple4.1": {
+    "children": [  "rich-text#answer4.1"]
+  },
+  "rich-text#question4.1": {
+    "props": {
+      "text": "How can I contact you?",
+      "blockClass": "question-text"
+    }
+  },
+  "rich-text#answer4.1": {
+    "props": {
+      "text": "We will contact you once your order has been placed, but for any questions in the meantime you can contact us via eventsfactory@ab-inbev.com or 0800-58316"
+    }
+  },
+
+
+  "disclosure-layout#question4.2": {
+      "children": ["disclosure-trigger#simple4.2", "disclosure-content#simple4.2"]
+    },
+    "disclosure-trigger#simple4.2": {
+      "children": ["rich-text#question4.2"]
+    },
+    "disclosure-content#simple4.2": {
+      "children": [  "rich-text#answer4.2"]
+    },
+    "rich-text#question4.2": {
+      "props": {
+        "text": "What are the current Covid-19 restrictions in Belgium?",
+        "blockClass": "question-text"
+      }
+    },
+    "rich-text#answer4.2": {
+      "props": {
+        "text": "To find out what restrictions to consider when organizing a party, please visit www.info-coronavirus.be"
+      }
+    },
+
+    "disclosure-layout#question4.3": {
+          "children": ["disclosure-trigger#simple4.3", "disclosure-content#simple4.3"]
+        },
+        "disclosure-trigger#simple4.3": {
+          "children": ["rich-text#question4.3"]
+        },
+        "disclosure-content#simple4.3": {
+          "children": [  "rich-text#answer4.3"]
+        },
+        "rich-text#question4.3": {
+          "props": {
+            "text": "When will I be contacted for the exact delivery date?",
+            "blockClass": "question-text"
+          }
+        },
+        "rich-text#answer4.3": {
+          "props": {
+            "text": "We will send you an e-mail with the exact delivery date about 4 days before the game"
+          }
+        },
+     "disclosure-layout#question4.4": {
+           "children": ["disclosure-trigger#simple4.4", "disclosure-content#simple4.4"]
+         },
+         "disclosure-trigger#simple4.4": {
+           "children": ["rich-text#question4.4"]
+         },
+         "disclosure-content#simple4.4": {
+           "children": [  "rich-text#answer4.4"]
+         },
+         "rich-text#question4.4": {
+           "props": {
+             "text": "Who will do the installation of all the materials?",
+             "blockClass": "question-text"
+           }
+         },
+         "rich-text#answer4.4": {
+           "props": {
+             "text": "Upon delivery, we will do all the technical installations related to the draught installation, to make sure you are all set up to serve the perfect beer. For the other materials (parasol, tables,…) it is up to you to place them when and where you desire."
+           }
+         },
+      "disclosure-layout#question4.5": {
+            "children": ["disclosure-trigger#simple4.5", "disclosure-content#simple4.5"]
+          },
+          "disclosure-trigger#simple4.5": {
+            "children": ["rich-text#question4.5"]
+          },
+          "disclosure-content#simple4.5": {
+            "children": [  "rich-text#answer4.5"]
+          },
+          "rich-text#question4.5": {
+            "props": {
+              "text": "Can this party @ home be installed in any type of location?",
+              "blockClass": "question-text"
+            }
+          },
+          "rich-text#answer4.5": {
+            "props": {
+              "text": "In order to be able to place the tapinstallation, we will need direct access to your garden from the street.  If your garden is only accessible by passing through your home or by stairs, delivery will not be possible."
+            }
+          },
+      "disclosure-layout#question4.6": {
+            "children": ["disclosure-trigger#simple4.6", "disclosure-content#simple4.6"]
+          },
+          "disclosure-trigger#simple4.6": {
+            "children": ["rich-text#question4.6"]
+          },
+          "disclosure-content#simple4.6": {
+            "children": [  "rich-text#answer4.6"]
+          },
+          "rich-text#question4.6": {
+            "props": {
+              "text": "Until when can I order a party for a game?",
+              "blockClass": "question-text"
+            }
+          },
+          "rich-text#answer4.6": {
+            "props": {
+              "text": "You can place an order up to 5 working days before the game, to give us enough time to prepare everything for delivery."
+            }
+          },
+    "disclosure-layout#question4.7": {
+          "children": ["disclosure-trigger#simple4.7", "disclosure-content#simple4.7"]
+        },
+        "disclosure-trigger#simple4.7": {
+          "children": ["rich-text#question4.7"]
+        },
+        "disclosure-content#simple4.7": {
+          "children": [  "rich-text#answer4.7"]
+        },
+        "rich-text#question4.7": {
+          "props": {
+            "text": "What if the Red Devils are eliminated and I already ordered a party?",
+            "blockClass": "question-text"
+          }
+        },
+        "rich-text#answer4.7": {
+          "props": {
+            "text": "If you ordered a party for one of the following rounds, and the Red Devils don’t make it there, you will be able to make a free cancellation until 11:59 AM on the day after the Red Devils have been eliminated from the tournament. In that case, please send us an e-mail if you would like to cancel your order.We will refund the full amount that you paid within 30 days."
+          }
+        },
+    "disclosure-layout#question4.8": {
+          "children": ["disclosure-trigger#simple4.8", "disclosure-content#simple4.8"]
+        },
+        "disclosure-trigger#simple4.8": {
+          "children": ["rich-text#question4.8"]
+        },
+        "disclosure-content#simple4.8": {
+          "children": [  "rich-text#answer4.8"]
+        },
+        "rich-text#question4.8": {
+          "props": {
+            "text": "Can I cancel free of charge?",
+            "blockClass": "question-text"
+          }
+        },
+        "rich-text#answer4.8": {
+          "props": {
+            "text": "Unfortunately this is not possible, unless the Red Devils are eliminated before the match that you ordered a party for. (See question: What if the Red Devils are eliminated and I already ordered a party? )"
+          }
+        },
+      "disclosure-layout#question4.9": {
+            "children": ["disclosure-trigger#simple4.9", "disclosure-content#simple4.9"]
+          },
+          "disclosure-trigger#simple4.9": {
+            "children": ["rich-text#question4.9"]
+          },
+          "disclosure-content#simple4.9": {
+            "children": [  "rich-text#answer4.9"]
+          },
+          "rich-text#question4.9": {
+            "props": {
+              "text": "Can I keep the party materials for more than 1 game?",
+              "blockClass": "question-text"
+            }
+          },
+          "rich-text#answer4.9": {
+            "props": {
+              "text": "If you would like to order more than one Red Devils Party @ Home, you will have to place a separate order for each game."
+            }
+          },
+              "disclosure-layout#question4.10": {
+                    "children": ["disclosure-trigger#simple4.10", "disclosure-content#simple4.10"]
+                  },
+                  "disclosure-trigger#simple4.10": {
+                    "children": ["rich-text#question4.10"]
+                  },
+                  "disclosure-content#simple4.10": {
+                    "children": [  "rich-text#answer4.10"]
+                  },
+                  "rich-text#question4.10": {
+                    "props": {
+                      "text": "What is The Events Factory?",
+                      "blockClass": "question-text"
+                    }
+                  },
+                  "rich-text#answer4.10": {
+                    "props": {
+                      "text": "The Events Factory is the events department of Ab-InBev in Belgium, responsible for organizing events and brewery tours."
+                    }
+                  }
+
 }

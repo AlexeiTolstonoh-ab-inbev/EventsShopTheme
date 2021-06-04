@@ -114,6 +114,10 @@
     "blocks":[
     "flex-layout.row#faq"
     ]},
+    "store.custom#howItWorks":{
+    "blocks":["flex-layout.row#howitworks"]
+    },
+
      "store.custom#aboutus":{
       "blocks":[
       "flex-layout.row#aboutus"

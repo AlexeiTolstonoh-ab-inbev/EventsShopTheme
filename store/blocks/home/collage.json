@@ -8,6 +8,23 @@
   },
     "children": ["flex-layout.col#col1", "flex-layout.col#col2", "flex-layout.col#col3", "flex-layout.col#col4","flex-layout.col#col5"]
   },
+  "flex-layout.row#features-button-wrapprer": {
+    "props": {
+      "blockClass": "features-wrapper",
+      "horizontalAlign": "center",
+      "marginBottom": 8,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true
+    },
+    "children": ["link#futures-button"]
+  },
+  "link#futures-button": {
+    "props": {
+      "blockClass": "futures-button",
+      "href": "/howitworks",
+      "label": "MORE INFO"
+    }
+  },
 
   "flex-layout.col#col1": {
     "props": {

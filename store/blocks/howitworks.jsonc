@@ -1,0 +1,209 @@
+{
+  "flex-layout.row#howitworks": {
+    "props": {
+    "fullWidth":true,
+      "paddingBottom": 5,
+      "paddingTop": 5,
+      "blockClass": "how-wrapper"
+    },
+    "children":[ "flex-layout.col#howitworks-col"]
+    },
+    "flex-layout.col#howitworks-col":{
+    "props":{
+    "paddingLeft": 10,
+    "paddingRight": 10,
+    "blockClass": "howitworks-col-wrapper"
+    },
+    "children":["flex-layout.row#header", "flex-layout.row#step1","flex-layout.row#step2","flex-layout.row#step3","flex-layout.row#step4","flex-layout.row#step5","flex-layout.row#step6","flex-layout.row#step7","flex-layout.row#step8","flex-layout.row#bottomtext"]
+    },
+    "flex-layout.row#header":{
+     "props": {
+        "fullWidth":true,
+        "blockClass": "howitworks-header-wrapper"
+    },
+    "children":["rich-text#howitworks-header"]
+    },
+        "rich-text#howitworks-header": {
+          "props": {
+            "text": "HOW DOES IT WORK ?",
+            "blockClass": "howitworks-header"
+          }
+        },
+     "flex-layout.row#step1":{
+         "props": {
+            "fullWidth":true,
+            "blockClass": "howitworks-header-wrapper"
+        },
+        "children":[ "rich-text#howitworks-step1","rich-text#howitworks-step1-descr"]
+
+        },
+        "rich-text#howitworks-step1": {
+                  "props": {
+                    "text": "STEP 1",
+                    "blockClass": "howitworks-step"
+                  }
+                },
+   "rich-text#howitworks-step1-descr": {
+                    "props": {
+                      "text": "CHOOSE YOUR GAME ",
+                      "blockClass": "howitworks-step-descr"
+                    }
+                  },
+
+       "flex-layout.row#step2":{
+           "props": {
+              "fullWidth":true,
+              "blockClass": "howitworks-header-wrapper"
+          },
+          "children":[ "rich-text#howitworks-step2","rich-text#howitworks-step2-descr"]
+
+          },
+          "rich-text#howitworks-step2": {
+                    "props": {
+                      "text": "STEP 2",
+                      "blockClass": "howitworks-step"
+                    }
+                  },
+     "rich-text#howitworks-step2-descr": {
+                      "props": {
+                        "text": "CHOOSE POSSIBLE EXTRA’S : DRINKS AND/ OR BAR TENDER",
+                        "blockClass": "howitworks-step-descr"
+                      }
+                    },
+
+       "flex-layout.row#step3":{
+           "props": {
+              "fullWidth":true,
+              "blockClass": "howitworks-header-wrapper"
+          },
+          "children":[ "rich-text#howitworks-step3","rich-text#howitworks-step3-descr"]
+
+          },
+          "rich-text#howitworks-step3": {
+                    "props": {
+                      "text": "STEP 3",
+                      "blockClass": "howitworks-step"
+                    }
+                  },
+     "rich-text#howitworks-step3-descr": {
+                      "props": {
+                        "text": "FILL IN ALL REQUESTED INFORMATION",
+                        "blockClass": "howitworks-step-descr"
+                      }
+                    },
+         "flex-layout.row#step4":{
+             "props": {
+                "fullWidth":true,
+                "blockClass": "howitworks-header-wrapper"
+            },
+            "children":[ "rich-text#howitworks-step4","rich-text#howitworks-step4-descr"]
+
+            },
+            "rich-text#howitworks-step4": {
+                      "props": {
+                        "text": "STEP 4",
+                        "blockClass": "howitworks-step"
+                      }
+                    },
+       "rich-text#howitworks-step4-descr": {
+                        "props": {
+                          "text": "PLACE YOUR PAYMENT",
+                          "blockClass": "howitworks-step-descr"
+                        }
+                      },
+       "flex-layout.row#step5":{
+           "props": {
+              "fullWidth":true,
+              "blockClass": "howitworks-header-wrapper"
+          },
+          "children":[ "rich-text#howitworks-step5","rich-text#howitworks-step5-descr"]
+
+          },
+          "rich-text#howitworks-step5": {
+                    "props": {
+                      "text": "STEP 5",
+                      "blockClass": "howitworks-step"
+                    }
+                  },
+     "rich-text#howitworks-step5-descr": {
+                      "props": {
+                        "text": "AROUND 4 DAYS BEFORE THE GAME YOU WILL BE CONTACTED TO PLAN DELIVERY DATE AND PICK UP",
+                        "blockClass": "howitworks-step-descr"
+                      }
+                    },
+        "flex-layout.row#step6":{
+            "props": {
+               "fullWidth":true,
+               "blockClass": "howitworks-header-wrapper"
+           },
+           "children":[ "rich-text#howitworks-step6","rich-text#howitworks-step6-descr"]
+
+           },
+           "rich-text#howitworks-step6": {
+                     "props": {
+                       "text": "STEP 6",
+                       "blockClass": "howitworks-step"
+                     }
+                   },
+      "rich-text#howitworks-step6-descr": {
+                       "props": {
+                         "text": "DELIVERY : AROUND 2 DAYS BEFORE THE GAME",
+                         "blockClass": "howitworks-step-descr"
+                       }
+                     },
+         "flex-layout.row#step7":{
+             "props": {
+                "fullWidth":true,
+                "blockClass": "howitworks-header-wrapper"
+            },
+            "children":[ "rich-text#howitworks-step7","rich-text#howitworks-step7-descr"]
+
+            },
+            "rich-text#howitworks-step7": {
+                      "props": {
+                        "text": "STEP 7",
+                        "blockClass": "howitworks-step"
+                      }
+                    },
+       "rich-text#howitworks-step7-descr": {
+                        "props": {
+                          "text": "ENJOY THE PARTY AND THE GAME WITH FRIENDS AND FAMILY !",
+                          "blockClass": "howitworks-step-descr"
+                        }
+                      },
+         "flex-layout.row#step8":{
+             "props": {
+                "fullWidth":true,
+                "blockClass": "howitworks-header-wrapper"
+            },
+            "children":[ "rich-text#howitworks-step8","rich-text#howitworks-step8-descr"]
+
+            },
+            "rich-text#howitworks-step8": {
+                      "props": {
+                        "text": "STEP 8",
+                        "blockClass": "howitworks-step"
+                      }
+                    },
+       "rich-text#howitworks-step8-descr": {
+                        "props": {
+                          "text": "PICK-UP : 1-2 Days after the match",
+                          "blockClass": "howitworks-step-descr"
+                        }
+                      },
+        "flex-layout.row#bottomtext":{
+            "props": {
+               "fullWidth":true,
+               "blockClass": "howitworks-bottom-wrapper"
+           },
+           "children":["rich-text#howitworks-bottomtext"]
+
+           },
+           "rich-text#howitworks-bottomtext": {
+                     "props": {
+                       "text": "FREE CANCELLATION: IF YOU ORDERED A PARTY FOR ONE OF THE FOLLOWING ROUNDS, AND THE RED DEVILS DON’T MAKE IT THERE, YOU WILL BE ABLE TO MAKE A FREE CANCELLATION UNTIL 11:59 AM ON THE DAY AFTER THE RED DEVILS HAVE BEEN ELIMINATED FROM THE TOURNAMENT. TECHNICAL REQUIREMENTS: IN ORDER TO BE ABLE TO PLACE THE TAP INSTALLATION, WE WILL NEED DIRECT ACCESS TO YOUR GARDEN. IF YOUR GARDEN IS ONLY ACCESSIBLE BY PASSING THROUGH YOUR HOME, DELIVERY WILL NOT BE POSSIBLE.",
+                       "blockClass": "howitworks-bottomtext"
+                     }
+                   }
+
+    }

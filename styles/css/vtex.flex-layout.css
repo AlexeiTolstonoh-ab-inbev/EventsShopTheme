@@ -1,3 +1,28 @@
+:global(.vtex-rich-text-0-x-container--howitworks-step), :global(.vtex-rich-text-0-x-container--howitworks-step-descr){
+  display: flex;
+  justify-content: center;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--howitworks-header-wrapper) :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: 100% !important;
+  margin-top: 15px;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--howitworks-header-wrapper) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+  width: 100% !important;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexRowContent--howitworks-header-wrapper){
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+padding: 0!important;
+  margin-top: 15px;
+}
+:global(.vtex-flex-layout-0-x-flexCol--howitworks-col-wrapper){
+  padding: 0;
+
+}
 
 .flexRow--aboutus-info-container-wrapper{
   margin-bottom: 20px;
@@ -76,7 +101,7 @@
 }
 :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper8){
   min-height: 450px;
-  background:url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/41db67a2-2dbb-41cc-ade0-ddad476cc264___d0bb4a27173211cb0f9fcb19cdd2f4f9.png")no-repeat 40% bottom,#000000;
+  background:url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/f9e4acc1-62e0-4508-a6c0-efe39212154c___cbbba183be76e64c52edf40820f324bc.png")no-repeat 40% bottom,#000000;
   background-size: 100% 450px,1520px;
   width: 100%;
   display: flex;
@@ -241,7 +266,7 @@
   }
   :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper8){
     min-height: 450px;
-    background:url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/41db67a2-2dbb-41cc-ade0-ddad476cc264___d0bb4a27173211cb0f9fcb19cdd2f4f9.png")no-repeat 40% 150%,#000000;
+    background:url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/f9e4acc1-62e0-4508-a6c0-efe39212154c___cbbba183be76e64c52edf40820f324bc.png")no-repeat 40% 150%,#000000;
     background-size: 450px,1520px;
     width: 100%;
     display: flex;
@@ -322,7 +347,7 @@ background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-gr
   }
   :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper8){
     /*background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/30776d71-2bb9-4894-baf2-5fd13df74efa___844911a18a877a3666e83cc53c44a23d.png") no-repeat 90% center,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/09d6021f-17bc-4675-a47c-e0761ee78fae___43d36c0af405919aa8d88b25cc8cb129.png") no-repeat 85% center,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/ff1d3451-43de-400f-815c-1ca0856cd941___67a755d26446f036633b17dc2dff8c67.png")no-repeat 85% center,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/84c79446-dcfa-4ade-b9b9-2d3087602929___dfede4ad1fd03942222c4f2356176fce.png")no-repeat 80% center,linear-gradient(90deg,#FFFFFF 54%,#D90026 46%) no-repeat;*/
-    background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/41db67a2-2dbb-41cc-ade0-ddad476cc264___d0bb4a27173211cb0f9fcb19cdd2f4f9.png")no-repeat 100%,#000000;
+    background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/f9e4acc1-62e0-4508-a6c0-efe39212154c___cbbba183be76e64c52edf40820f324bc.png")no-repeat 100%,#000000;
     background-size: 412px, 100%;
     width: 100%;
     min-height: 400px;
@@ -374,6 +399,22 @@ background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-gr
   :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper6) :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
     justify-content: flex-start;
   }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--howitworks-header-wrapper){
+    flex-direction: row;
+    padding: 10px;
+    justify-content: flex-start;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--howitworks-header-wrapper) :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: 80% !important;
+    margin-top: 15px;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--howitworks-header-wrapper) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+    width: 30% !important;
+  }
+
+
 }
 
   @media screen and (min-width: 40em) {
@@ -460,7 +501,7 @@ background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-gr
     }
     :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper8){
       /*background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/30776d71-2bb9-4894-baf2-5fd13df74efa___844911a18a877a3666e83cc53c44a23d.png") no-repeat 90% center,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/09d6021f-17bc-4675-a47c-e0761ee78fae___43d36c0af405919aa8d88b25cc8cb129.png") no-repeat 85% center,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/ff1d3451-43de-400f-815c-1ca0856cd941___67a755d26446f036633b17dc2dff8c67.png")no-repeat 85% center,url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/84c79446-dcfa-4ade-b9b9-2d3087602929___dfede4ad1fd03942222c4f2356176fce.png")no-repeat 80% center,linear-gradient(90deg,#FFFFFF 54%,#D90026 46%) no-repeat;*/
-      background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/41db67a2-2dbb-41cc-ade0-ddad476cc264___d0bb4a27173211cb0f9fcb19cdd2f4f9.png")no-repeat 100%,#000000;
+      background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-graphql/images/f9e4acc1-62e0-4508-a6c0-efe39212154c___cbbba183be76e64c52edf40820f324bc.png")no-repeat 100%,black;
       background-size: 412px, 100%;
       width: 100%;
       min-height: 400px;
@@ -512,7 +553,28 @@ background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-gr
     :global(.vtex-flex-layout-0-x-flexRow--bannerWrapper6) :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
       justify-content: flex-start;
     }
+    :global(.vtex-flex-layout-0-x-flexRowContent--howitworks-header-wrapper){
+      flex-direction: row;
+      padding: 20px;
+      justify-content: flex-start;
+    }
+    :global(.vtex-flex-layout-0-x-flexRow--how-wrapper){
+      padding: 0 30px;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexRowContent--howitworks-header-wrapper) :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+      width: 80% !important;
+      margin-top: 15px;
+    }
+    :global(.vtex-flex-layout-0-x-flexRowContent--howitworks-header-wrapper) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+      width: 20% !important;
+    }
+
+
+
+
   }
+
   @media screen and (min-width: 80rem) {
     .flexRowContent--menu-link,
     .flexRowContent--main-header {
