@@ -118,6 +118,10 @@
     "blocks":["flex-layout.row#howitworks"]
     },
 
+    "store.custom#legal-agreement":{
+     "blocks":["flex-layout.row#legal-agreement"]
+    },
+
      "store.custom#aboutus":{
       "blocks":[
       "flex-layout.row#aboutus"

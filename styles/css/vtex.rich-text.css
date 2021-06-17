@@ -1,7 +1,7 @@
 :global(.vtex-rich-text-0-x-wrapper--howitworks-step){
   border: 2px solid red;
   padding: 0 44px;
-  width: 154px;
+  width: auto;
 }
 
 :global(.vtex-rich-text-0-x-container--howitworks-step-descr){

@@ -66,7 +66,6 @@
 
   "search-result-layout.desktop": {
     "children": [
-      "flex-layout.row#image",
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
@@ -81,20 +80,7 @@
       }
     }
   },
-  "flex-layout.row#image":{
-  "props":{
-   "blockClass":"image-top-container"
-   },
-     "children": ["image#topImage"]
-  },
-  "image#topImage":{
-    "props": {
-      "src": "https://storecomponents.vteximg.com/files/mobile-phone.png",
-      "maxHeight": "",
-      "maxWidth": "",
-      "blockClass": "image-top"
-    }
-  },
+
 
   "flex-layout.row#searchbread": {
     "children": ["breadcrumb.search"],
@@ -173,7 +159,6 @@
 
   "search-result-layout.mobile": {
     "children": [
-    "flex-layout.row#image",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",
       "flex-layout.row#productCountMobile",

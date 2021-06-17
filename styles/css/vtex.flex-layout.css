@@ -567,7 +567,7 @@ background: url("https://abibewebshop.vtexassets.com/assets/vtex.file-manager-gr
       margin-top: 15px;
     }
     :global(.vtex-flex-layout-0-x-flexRowContent--howitworks-header-wrapper) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
-      width: 20% !important;
+      width: 30% !important;
     }
 
 

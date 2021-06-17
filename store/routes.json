@@ -16,5 +16,8 @@
   },
   "store.custom#howItWorks": {
     "path": "/howitworks"
+  },
+  "store.custom#legal-agreement": {
+    "path": "/legal-agreement"
   }
 }

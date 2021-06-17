@@ -1,7 +1,7 @@
 {
   "vendor": "abibeevents",
   "name": "abibeevents-store-theme",
-  "version": "1.0.3",
+  "version": "1.0.7",
   "builders": {
     "assets": "0.x",
     "styles": "2.x",
